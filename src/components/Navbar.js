@@ -6,7 +6,7 @@ import logo from "../images/logo.svg";
 export default function Navbar() {
   return (
     <ProductConsumer>
-      {value => {
+      {(value) => {
         const { cartItems, handleSidebar, handleCart } = value;
         return (
           <NavWrapper>
@@ -33,6 +33,7 @@ const NavWrapper = styled.nav`
   padding: 1rem 1.5rem;
   background: var(--mainGrey);
   border-bottom: 3px solid var(--primaryColor);
+  z-index: 1;
   .nav-center {
     display: flex;
     align-items: center;
