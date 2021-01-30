@@ -32,7 +32,7 @@ export default function Contact() {
                 type="text"
                 name="subject"
                 className="form-control"
-                placeholder="impotant!!!!"
+                placeholder="important!!!!"
               />
             </div>
             {/*message */}
@@ -41,7 +41,7 @@ export default function Contact() {
                 name="message"
                 className="form-control"
                 rows="10"
-                placeholder="hello there buddy"
+                placeholder="Hello there buddy"
               />
             </div>
           </form>
