@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { linkData } from "./linkData";
+import { socialData } from "./socialData";
 const ProductContext = React.createContext();
 //Provider
 //Consumer
@@ -9,7 +10,8 @@ class ProductProvider extends Component {
     cartOpen: false,
     cartItems: 2,
     links: linkData,
-    cart: []
+    socialIcons: socialData,
+    cart: [],
   };
   // handle sidebar
   handleSidebar = () => {
@@ -35,7 +37,7 @@ class ProductProvider extends Component {
           handleSidebar: this.handleSidebar,
           handleCart: this.handleCart,
           closeCart: this.closeCart,
-          openCart: this.openCart
+          openCart: this.openCart,
         }}
       >
         {this.props.children}
