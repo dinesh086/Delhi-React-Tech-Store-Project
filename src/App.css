@@ -24,8 +24,8 @@ body {
   background: var(--mainGrey) !important;
   color: var(--mainBlack);
 }
-.main-link{
-  padding:0.5rem 1rem;
+.main-link {
+  padding: 0.5rem 1rem;
   background: var(--primaryColor);
   color: var(--mainWhite);
   display: inline-block;
@@ -36,9 +36,12 @@ body {
   transition: var(--mainTransition);
 }
 
-.main-link:hover{
+.main-link:hover {
   background: var(--darkGrey);
   text-decoration: none;
-  color:var(--primaryColor);
-  outline-color:var(--darkGrey);
+  color: var(--primaryColor);
+  outline-color: var(--darkGrey);
+}
+.cart-icon {
+  cursor: pointer;
 }
