@@ -59,7 +59,7 @@ export default function CartItem({
       {/* end of remove item */}
       {/* item total */}
       <div className="col-10 mx-auto col-lg-2">
-        <strong className="text-muted">item total: ${total}</strong>
+        <strong className="text-muted">item total: ₹{total}</strong>
       </div>
       {/* item total */}
     </div>

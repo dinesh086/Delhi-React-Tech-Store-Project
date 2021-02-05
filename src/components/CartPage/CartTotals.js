@@ -17,9 +17,9 @@ export default function CartTotals({ history }) {
                 >
                   clear cart
                 </button>
-                <h3>subtotal:${cartSubTotal}</h3>
-                <h3>tax:${cartTax}</h3>
-                <h3>total:${cartTotal}</h3>
+                <h3>subtotal:₹{cartSubTotal}</h3>
+                <h3>tax:₹{cartTax}</h3>
+                <h3>total:₹{cartTotal}</h3>
                 <PayPalBtn
                   history={history}
                   cartTotal={cartTotal}
